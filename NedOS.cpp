@@ -4,14 +4,10 @@
 
 using namespace std;
 
-
 void Soc()
 {
 	cout << "Git-https://github.com/KriperPlay" << endl;
 	cout << "YT-https://www.youtube.com/channel/UCdnuUUfZ3dGg9pCaQCQHIzQ" << endl;
-
-
-
 }
 
 
@@ -19,12 +15,12 @@ void Calc()
 {
 	printf("1 - Minus, 2 - +, 3 - *, 4 - /\n");
 	int func;
-	scanf("%d\n", &func);
+	cin >> func;
 	int a;
 	int b;
 	//printf("-,+,*,/?\n");
-	scanf("%d\n", &a);
-	scanf("%d\n", &b);
+	cin >> a;
+	cin >> b;
 
 	if (func == 1)
 	{
@@ -50,10 +46,7 @@ void Calc()
 		printf("Result:\n");
 		printf("%d\n", res);
 	}
-
-
 }
-
 
 void Info()
 {
@@ -74,7 +67,6 @@ void INFOOS()
 
 }
 
-
 void Logo2()
 {
     char L1[130] = "███╗░░██╗███████╗██████╗░░█████╗░░██████╗";
@@ -91,8 +83,6 @@ void Logo2()
     printf("%s\n", L6);
 
 }
-
-
 
 void Secret()
 {
